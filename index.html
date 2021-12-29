@@ -9,23 +9,82 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href=./img/panik.PNG>
+   
 </head>
 <body>
     <header>
-        <h1>bE<span class="boundless">bOuNdLeSs</span></h1>
-        <nav class="format">
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="contact-me">Contact Me</a>
-                </li>
+        <h1>
+            <span class="bE">bE</span>
+            <span class="boundless">bOuNdLeSs</span>
+        </h1>
+        <button class='nav-toggle' aria-label="toggle navigation"></button>
+            <span class='borger'></span>
+        <nav class="nav">
+            <ul class='nav-list'>
+                <li class='nav__item'><a href="#home">Home</a></li>
+                <li class='nav__item'><a href="#about-me">About Me</a></li>
+                <li class='nav__item'><a href="#my-work">My Work</a></li>
+                <li class='nav__item'><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <!-- Main Content-->
+        <section class='content'>
+            <article id='about-me' class='about-me'>
+                <h2 class='intro-title'>
+                    Hi, I am <strong>bEbOuNdLeSs</strong>
+                </h2>
+                <p class='intro-sub-title'>Professional Part-timer</p>
+                <img src="./img/birb.png" alt='Logo' class="intro-image">
+        </section>
+
+        <!--About Me-->
+        <section id='about-mee' class='about-mee'>
+            <h2 class='about-me-title'>About Me</h2>
+                <section class='about-me-pts'>
+                    <section class='about-me-pts'>
+                        <h3>Event Planner</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit optio debitis, eum obcaecati tempora nobis ipsum numquam consectetur excepturi, iure modi? Quod quo ipsa asperiores rem fugiat, a vitae!</p>
+                    </section> <!-- / about me-->
+
+                    <section class='about-me-pts'>
+                        <h3>Social Media Manager</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque incidunt quis reprehenderit veniam numquam nihil aspernatur, vel fugit id dolore nulla. Expedita provident voluptate eligendi dolorum, accusantium reprehenderit nobis!</p>
+                    </section> <!-- / about me-->
+
+                    <section class='about-me-pts'>
+                        <h3>Culinary Arts</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quis quae ducimus, voluptas consectetur voluptatibus earum consequatur blanditiis temporibus sint unde! Numquam, minus animi accusantium voluptates quas sunt reprehenderit nisi?</p>
+                    </section> 
+                </section> <!-- / about me-->
+        </section> <!-- / about me-->
+
+        <!--My Work-->
+        <section id='my-work' class='my-work'>
+            <h2 class='my-work-title'>Portfolio Available soonTM</h2>
+            <p class='my-work-subtitle'></p>
+
+            <section class = 'my-work-body'>
+                <p>Instead of leaving this area blank, here are some motivational pictures.</p>
+                
+            </section>
+            <figure class="spoopy"></figure>
+        </section>
+
+        <!--Contact me-->
+        <section id='contact-me' class='contact-me'>
+            <h2 class='contact-me-title'></h2>
+            <a href="mailto:bEbOuNdLeSsSsSs@gmail.com" class='my-email'>bEbOuNdLeSs.dev</a>
+            <ul class='social-list'>
+                <li class='social-list-item'></li>
+                <li class='social-list-item'></li>
+                <li class='social-list-item'></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 </html>
