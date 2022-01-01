@@ -16,7 +16,7 @@ The navigation bar is designed to help the users navigate the website and view s
 
 The header contains an avatar that I drew previously along with my name and profession. 
 
-<Insert image of nav bar>
+![alttext](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/nav_bar.PNG)
 
 ## About Me
 The about me section of this webpage was designed to discuss my three capabilities and my work experience. They are elements that are flexed and will stack in a column when shrunk to the appropriate screen width for accessibility reasons.
