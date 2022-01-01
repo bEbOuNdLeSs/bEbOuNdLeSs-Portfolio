@@ -40,6 +40,7 @@ body{
     font-size: var(--fs-body);
     font-family: var(--ff-primary);
     line-height: 1.5;
+    margin: 50px 0 0 0;
 }
 
 section {
@@ -98,10 +99,19 @@ header {
     padding: 1rem;
     background: #111;
     position: fixed;
+    z-index: 100;
+    width: 100%;
+    max-width: 100%;
+    opacity: .7;
+    top: 0;
 }
 
 .nav{
     list-style: none;
+    display: inline;
+}
+
+.nav-item {
     display: inline;
 }
 
