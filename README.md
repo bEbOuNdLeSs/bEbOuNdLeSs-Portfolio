@@ -16,22 +16,20 @@ The navigation bar is designed to help the users navigate the website and view s
 
 The header contains an avatar that I drew previously along with my name and profession. 
 
-![alttext](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/nav_bar.PNG)
+![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/nav_bar.PNG)
 
 ## About Me
 The about me section of this webpage was designed to discuss my three capabilities and my work experience. They are elements that are flexed and will stack in a column when shrunk to the appropriate screen width for accessibility reasons.
 
-<insert image of before about me>
+![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/flex-object-before.PNG)
 
-<insert image of after about me>
+![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/flex-object-after.PNG)
 
 ## Portfolio
 The portfolio section includes images that are used as place holders for projects that I will work on in the future, however it does include a link to the previous homework assignment of code refactoring. The images have a transition when hovered over that brings them closer to the screen and the opacity changes. There is also a flex grid inplace that allows all images to be viewable on the image at all times. 
 
-<insert image of before portfolio>
-<insert image of after portfolio>
+![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/flex-grid-portfolio.PNG)
+![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/flex-grid-portfolio-reactive-images.PNG)
 
 ## Contact 
 The footer is very standard in comparison to most sites. It contains my contact information with links to my github and linkedin profiles. The email link will automatically open up a window on the user’s pc or mobile device to send an email to me. The links are underlined when hovered over.
-
-<insert image of footer>
