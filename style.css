@@ -40,7 +40,7 @@ body{
     font-size: var(--fs-body);
     font-family: var(--ff-primary);
     line-height: 1.5;
-    margin: 50px 0 0 0;
+    margin-top: 50px;
 }
 
 section {
@@ -267,6 +267,7 @@ a:hover {
     text-align: center;
     padding: 2.5rem 0;
     font-size: var(--fs-h3);
+    margin-bottom: 50px;
 }
 
 .contact-me a{ 
