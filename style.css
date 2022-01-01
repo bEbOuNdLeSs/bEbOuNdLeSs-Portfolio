@@ -121,6 +121,11 @@ header {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--hovered);
+    text-decoration: underline;
+}
+
 /* Intro */
 
 .about-me{
@@ -131,7 +136,7 @@ header {
     box-shadow: var(--box);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .about-me {
         display: grid;
         width: min-content;
@@ -165,9 +170,13 @@ header {
 
 .about-mee {
     background-color: var(--abyss);
-    background-image: url('./img/spoopy.jpg');
+    background-image: url('./img/sky.jpg');
     background-size: cover;
     text-align: center;
+}
+
+.about-mee img {
+    max-width: 100%;
 }
 
 .about-me-title {
@@ -202,6 +211,12 @@ header {
 
     .about-me-pts + .about-me-pts {
         margin-left: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-mee {
+        background-image: url('./img/spoopy.jpg');
     }
 }
 
