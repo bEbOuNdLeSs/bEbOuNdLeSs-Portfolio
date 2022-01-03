@@ -297,3 +297,8 @@ a:hover {
 .social-list-item {
     margin: 0 .5rem;
 }
+
+.footer-thing {
+    background-color: black;
+    text-align: center;
+}
