@@ -278,21 +278,23 @@ a:hover {
     font-weight: var(--fw-bold);
 }
 
-.social-list-link:hover{
+.social-list-link:hover,
+.my-email:hover {
     opacity: .7;
 }
 
-.social-list-link:hover{
+.social-list-link:hover,
+.my-email:hover {
     text-decoration: underline;
 }
 
-.social-list {
+/* .social-list {
     list-style: none;
     display: flex;
     justify-content: center;
     margin: 2rem 0;
     padding: 0;
-}
+} */
 
 .social-list-item {
     margin: 0 .5rem;
