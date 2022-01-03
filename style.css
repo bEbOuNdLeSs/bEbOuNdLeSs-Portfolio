@@ -288,14 +288,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* .social-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
-    padding: 0;
-} */
-
 .social-list-item {
     margin: 0 .5rem;
 }
