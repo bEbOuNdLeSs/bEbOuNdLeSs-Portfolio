@@ -271,7 +271,7 @@ a:hover {
 
 .contact-me a{ 
     text-decoration: none;
-    color: inherit;
+    color: var(--bubbles);
 }
 
 .social-list-link,
