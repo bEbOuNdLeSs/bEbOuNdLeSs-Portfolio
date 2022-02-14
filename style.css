@@ -259,6 +259,20 @@ a:hover {
     opacity: .75;
 }
 
+.list-link {
+    text-decoration: none;
+    color: var(--bubbles);
+}
+
+.highlighted-project {
+    padding: 2.5rem 0;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* contact me */
 
 .contact-me {
