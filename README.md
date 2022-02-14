@@ -28,8 +28,12 @@ The about me section of this webpage was designed to discuss my three capabiliti
 ## Portfolio
 The portfolio section includes images that are used as place holders for projects that I will work on in the future, however it does include a link to the previous homework assignment of code refactoring. The images have a transition when hovered over that brings them closer to the screen and the opacity changes. There is also a flex grid inplace that allows all images to be viewable on the image at all times. 
 
+The portfolio now includes two projects that I would like to highlight. The link to the live deployment of the website and the repository will be displayed above the image of the webpages.
+
 ![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/flex-grid-portfolio.PNG)
 ![alt text](https://github.com/bEbOuNdLeSs/bEbOuNdLeSs-Portfolio/blob/main/img/flex-grid-portfolio-reactive-images.PNG)
 
 ## Contact 
 The footer is very standard in comparison to most sites. It contains my contact information with links to my github and linkedin profiles. The email link will automatically open up a window on the user’s pc or mobile device to send an email to me. The links are underlined when hovered over.
+
+Footer has been updated to now include my updated resume.
